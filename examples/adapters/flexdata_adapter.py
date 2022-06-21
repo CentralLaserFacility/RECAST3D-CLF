@@ -31,7 +31,8 @@ path = args.path
 
 dark = data.read_stack(path, 'di00', sample = sample)
 flat = data.read_stack(path, 'io00', sample = sample)    
-proj = data.read_stack(path, 'scan_', skip = sample, sample = sample)
+#proj = data.read_stack(path, 'scan_', skip = sample, sample = sample)
+proj = data.read_stack(path, 'scan_', skip = 2, sample = sample)
 
 print(np.shape(dark), np.shape(flat), np.shape(proj))
 
