@@ -55,7 +55,7 @@ software (such as, but not exclusively, RECAST3D).
 1. Start recast3d
     - `recast3d `
 2. Start slicecon
-    - `slicerecon_server --slice-size 1024 –-tilt`
+    - `slicerecon_server --slice-size 1024 --tilt`
     - All the configurable parameters:
         -	`--slice-size`
         -	`--preview-size`
